@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
+====================================================================================================================================================================================================================
 # JohnE_Portfolio
-
->>>>>>> 058155c6882b25c192847adc075cd72b82b92fad
 💼 Personal Portfolio Website
 A responsive and modern portfolio website built with React and React Bootstrap, showcasing my work, skills, and professional journey. This project serves as a digital resume and demonstrates my proficiency in frontend development, component-based UI design, and responsive layout practices.
 
@@ -25,8 +22,4 @@ React Bootstrap
 HTML5 / CSS3
 
 JavaScript (ES6+)
-<<<<<<< HEAD
-
-Hosted on GitHub Pages 
-=======
->>>>>>> 058155c6882b25c192847adc075cd72b82b92fad
+=====================================================================================================================================================================================================================
