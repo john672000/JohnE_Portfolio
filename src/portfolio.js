@@ -417,6 +417,17 @@ const projectsHeader = {
           color: "#0879bf",
         },
         {
+          title: "Face-Recognition",
+          company: "GitHub-->",
+          company_url: "https://github.com/john672000/Face-Recognition-using--Machine-Learning-KNN.git",
+          logo_path: "gcp_logo.png",
+          duration: "Python",
+          location: "Python-Pillow, Tkinter",
+          description:
+            "The main aspect of this project is to make the model learn faces and recognize it when identified in the stream. I've used KNN Model and Tkinter as GUI for efficient and easier User-Interface",
+          color: "#0879bf",
+        },
+        {
           title: "WeHelp----Android",
           company: "GitHub-->",
           company_url: "https://github.com/john672000/WeHelp----Android.git",
@@ -435,16 +446,6 @@ const projectsHeader = {
           location: "PHP, MongoDB",
           description:
             "This is a PHP based Website created for learning sake. It's basic and features a online shopping platform where you can either connet it to a database with unique keys matching the front-end or use the pre described items.",
-          color: "#0879bf",
-        }, {
-          title: "Face-Recognition",
-          company: "GitHub-->",
-          company_url: "https://github.com/john672000/Face-Recognition-using--Machine-Learning-KNN.git",
-          logo_path: "gcp_logo.png",
-          duration: "Python",
-          location: "Python-Pillow, Tkinter",
-          description:
-            "The main aspect of this project is to make the model learn faces and recognize it when identified in the stream. I've used KNN Model and Tkinter as GUI for efficient and easier User-Interface",
           color: "#0879bf",
         },
       ],
