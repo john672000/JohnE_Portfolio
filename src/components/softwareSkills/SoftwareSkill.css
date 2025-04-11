@@ -1,0 +1,32 @@
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 2rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.software-skills-main-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.software-skill-inline {
+  display: inline-block;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  font-family: "Google Sans Regular";
+}
+
+.software-skill-inline>i {
+  color: #868e96;
+}
+
+.software-skill-inline>i:hover {
+  color: #645beb;
+}

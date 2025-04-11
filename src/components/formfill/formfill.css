@@ -1,0 +1,160 @@
+.form-div {
+    font-size: 20px;
+    display: flex;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.frm-head {
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: "Google Sans Medium";
+    text-decoration: underline;
+}
+
+.form-cmpnts {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    max-width: 500px;
+    font-family: "Google Sans Medium";
+}
+
+.form-cmpnts div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    font-family: "Google Sans Medium";
+}
+
+.form-cmpnts label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: "Google Sans Medium";
+}
+
+.form-cmpnts input,
+.form-cmpnts textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #ffffff;
+    box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    font-family: "Google Sans Medium";
+}
+
+.form-cmpnts input::placeholder,
+.form-cmpnts textarea::placeholder {
+    color: #89b4dc;
+
+
+}
+
+.form-cmpnts input:focus,
+.form-cmpnts textarea:focus {
+    outline: none;
+    border-color: #06b4cf;
+    box-shadow: 0px 0px 8px rgba(3, 74, 180, 0.5);
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+    font-family: "Google Sans Medium";
+
+}
+
+.frmbtn {
+    background-color: #001c55;
+    border: solid 1px #55198b;
+    color: white;
+    font-weight: 500;
+    line-height: 1.1;
+    width: max-content;
+    padding: 13px 22px;
+    border-radius: 6px;
+    font-family: "Google Sans Regular";
+    margin: 20px auto 0 auto;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+
+
+}
+
+.frmbtn button {
+    background-color: #ffffff00;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    font-family: "Google Sans Medium";
+    padding: 2px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.frmbtn button:hover {
+    background-color: #0057b300;
+    color: black;
+    /* Darker blue on hover */
+}
+
+.frmbtn:hover {
+    background-color: #ffffff;
+    color: black;
+    transition: ease-in 0.3s;
+}
+
+.frmbtn:hover button {
+    color: black;
+}
+
+
+
+
+/* Media Query */
+@media (max-width: 768px) {
+
+    .form-div {
+        font-size: 15px;
+        padding: 12px 18px;
+        margin-right: 0px;
+    }
+
+    .frmbtn button {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .form-cmpnts {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .frmbtn button {
+        font-size: 14px;
+    }
+
+
+
+}

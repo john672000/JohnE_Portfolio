@@ -1,0 +1,67 @@
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  z-index: 9999;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Fade-out effect when animation completes */
+.fade-out {
+  animation: fadeOut 1s ease-in-out forwards;
+}
+
+.welcome-text {
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0;
+  animation: slideIn 1.5s ease-in-out forwards;
+}
+
+.loader-logo {
+  width: 120px;
+  margin-top: 10px;
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in-out 1s forwards;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

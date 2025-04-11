@@ -1,0 +1,77 @@
+.skills-header {
+  font-size: 60px;
+  line-height: normal;
+  font-family: "Google Sans Regular";
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.logos-skills {
+  size: 200px;
+}
+
+.skills-text {
+  font-size: 20px;
+}
+
+.skills-text-div {
+  font-family: "Google Sans Regular";
+}
+
+.skills-main-div > * {
+  flex: 1;
+  align-items: left;
+  align-self: left;
+  justify-content: left;
+  text-align: left;
+  margin-bottom: 35px;
+}
+
+/* Machine learning */
+.skills-heading {
+  font-size: 58px;
+  font-weight: 410;
+  font-family: "Google Sans Regular";
+  line-height: normal;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+  .skills-heading {
+    font-size: 40px;
+  }
+  .skills-header {
+    font-size: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .skills-heading {
+    font-size: 30px;
+    text-align: left;
+  }
+  .skills-header {
+    font-size: 30px;
+  }
+  .greeting-text-p {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .skills-main-div {
+    flex-direction: row;
+    text-align: left;
+  }
+  .skills-text-div {
+    margin-left: 0px;
+    margin: 20px;
+    justify-self: left;
+    justify-content: left;
+  }
+  .skills-text {
+    font-size: 16px;
+  }
+  .skills-text-subtitle {
+    font-size: 16px;
+    text-align: left;
+    justify-items: left;
+  }
+}

@@ -1,0 +1,186 @@
+.contact-main {
+  width: 100%;
+}
+
+.basic-contact {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.contact-heading-div {
+  display: flex;
+}
+
+.address-heading-div {
+  display: flex;
+  margin-top: 80px;
+}
+
+
+.contact-heading-div>* {
+  flex: 1;
+}
+
+.address-heading-div>* {
+  flex: 1;
+}
+
+.address-subTitle {
+  margin-top: 20px;
+  margin-bottom: auto;
+  font-size: 18px;
+  font-family: "Google Sans Medium";
+}
+
+.prf-img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 0px;
+}
+
+.sign-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  object-fit: contain;
+  margin-top: -90px;
+  animation-iteration-count: 1;
+}
+
+.image-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+
+
+.contact-heading-text-div {
+  text-align: center;
+}
+
+.address-heading-text-div {
+  text-align: center;
+}
+
+
+
+
+.contact-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+
+
+.address-heading-text {
+  font-size: 45px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.contact-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Google Sans Medium";
+}
+
+.contact-resbtn {
+  margin-top: -20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+.address-btn-div {
+  width: 100%;
+  display: -webkit-inline-flex;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+
+@media (max-width: 740px) {
+  .contact-heading-text {
+    font-size: 50px;
+    margin-top: 60px;
+  }
+
+  .prf-img {
+    height: 200px;
+    width: 200px;
+  }
+
+
+  .address-heading-text {
+    font-size: 5px;
+  }
+
+  .address-subTitle {
+    margin-top: 20px;
+    margin-bottom: auto;
+    font-size: 18px;
+    font-family: "Google Sans Medium";
+  }
+
+
+
+}
+
+@media (max-width: 1046px) {
+  .contact-heading-text {
+    font-size: 30px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+
+
+  .address-heading-text {
+    font-size: 30px;
+    font-family: "Google Sans Bold";
+  }
+
+
+
+
+  .address-heading-div {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+
+  .contact-heading-div {
+    flex-direction: column;
+  }
+
+  .contact-header-detail-text {
+    font-size: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .address-subTitle {
+    margin-top: 20px;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-family: "Google Sans Bold";
+  }
+
+}
