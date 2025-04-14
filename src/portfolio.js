@@ -163,11 +163,35 @@ const skills = {
           },
         },
         {
+          skillName: "Docker",
+          iconifyClassname: "simple-icons:docker",
+          style: {
+            backgroundColor: "transparent",
+            color: "#326CE5",
+          },
+        },
+        {
           skillName: ".NET",
           iconifyClassname: "simple-icons:dotnet",
           style: {
             backgroundColor: "transparent",
             color: "#6d277d",
+          },
+        },
+        {
+          skillName: "Railway",
+          iconifyClassname: "simple-icons:railway",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0B0D0E",
+          },
+        },
+        {
+          skillName: "kubernetes",
+          iconifyClassname: "simple-icons:kubernetes",
+          style: {
+            backgroundColor: "transparent",
+            color: "#326CE5",
           },
         },
         {
