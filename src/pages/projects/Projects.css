@@ -1,5 +1,5 @@
 .experience-main {
-  width: 100%;
+  width: 100vw;
 }
 
 .basic-experience {
@@ -55,6 +55,61 @@
   font-family: "Google Sans Medium";
 }
 
+/* Skeleton loader styles */
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.skeleton-text {
+  background-color: #EDF9FE;
+  /* Light grey for skeleton background */
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.skeleton-title {
+  width: 60%;
+  height: 24px;
+}
+
+.skeleton-desc {
+  width: 90%;
+  height: 16px;
+}
+
+.skeleton-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skeleton-lang {
+  width: 30%;
+  height: 12px;
+}
+
+/* Animation for skeletons to give a shimmer effect */
+@keyframes shimmer {
+  0% {
+    background-position: -100%;
+  }
+
+  100% {
+    background-position: 100%;
+  }
+}
+
+.skeleton-text {
+  animation: shimmer 1.5s infinite linear;
+  background: linear-gradient(90deg, #e0e0e0 25%, #EDF9FE 50%, #e7e4e4 75%);
+  background-size: 200% 100%;
+}
+
+
 @media (max-width: 1380px) {
   .experience-heading-text {
     font-size: 50px;
@@ -86,4 +141,90 @@
     line-height: normal;
     text-align: center;
   }
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.project-card {
+  border-radius: 35px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out, box-shadow 0.3s ease;
+  font-family: "Google Sans Medium";
+  backdrop-filter: blur(5px);
+
+  background: linear-gradient(270deg, #EDF9FE, #cedef1, #c9e2fa);
+
+}
+
+.project-card:hover {
+  transform: scale(0.98);
+  border: 0.5px solid black;
+  transition: all 0.2s ease-in-out;
+  background: #EDF9FE;
+}
+
+.card-btn {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+
+  }
+
+  70% {
+    transform: translateY(10px);
+
+  }
+
+  100% {
+    transform: translateY(0);
+
+  }
+}
+
+.project-card:hover .card-btn {
+  animation: bounce 0.5s ease-out;
+
+}
+
+
+
+.project-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.fetching-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: bold;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  /* optional: space between text and SVG */
+}
+
+.fetching-msg i {
+  padding: 20px;
+  font-size: 32px;
 }

@@ -1,67 +1,199 @@
-.loader-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
+.load-wrapper {
   height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: white;
-  z-index: 9999;
-  animation: fadeIn 1.5s ease-in-out;
+  justify-content: center;
+  background-color: #EDF9FE;
+  overflow: hidden;
 }
 
-/* Fade-out effect when animation completes */
-.fade-out {
-  animation: fadeOut 1s ease-in-out forwards;
+
+
+
+.load-wrapper svg {
+  width: 100%;
+  height: auto;
+  margin-left: 6%;
+  max-width: 80%;
 }
 
-.welcome-text {
-  font-size: 2rem;
-  font-weight: bold;
-  opacity: 0;
-  animation: slideIn 1.5s ease-in-out forwards;
+.zoom-target {
+  animation: zoom-transition 2s ease-in-out forwards;
+  animation-delay: 9s;
+  /* wait for full text animation to finish */
+  transform-origin: center center;
+  /* or focus on a letter if needed */
 }
 
-.loader-logo {
-  width: 120px;
-  margin-top: 10px;
-  opacity: 0;
-  animation: fadeIn 1.5s ease-in-out 1s forwards;
-}
-
-/* Keyframes for animations */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  from {
+/* Massive zoom and fade out */
+@keyframes zoom-transition {
+  0% {
+    transform: scale(1);
     opacity: 1;
   }
 
-  to {
+  50% {
+    transform: scale(90);
+    /* super zoom into a letter */
     opacity: 0;
-    visibility: hidden;
+  }
+
+}
+
+
+.load-wrapper svg path {
+  stroke: #001C55;
+  stroke-width: 2;
+  fill: none;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: draw-stroke 2.5s ease forwards, fill-text 1s ease forwards;
+}
+
+/* Animation for stroke drawing */
+@keyframes draw-stroke {
+  to {
+    stroke-dashoffset: 0;
   }
 }
 
-@keyframes slideIn {
+/* Animation for fill after stroke */
+@keyframes fill-text {
   from {
-    opacity: 0;
-    transform: translateY(-20px);
+    fill: transparent;
   }
 
   to {
-    opacity: 1;
-    transform: translateY(0);
+    fill: #001C55;
+  }
+}
+
+/* Typewriter stagger effect */
+.load-wrapper svg path:nth-of-type(1) {
+  animation-delay: 0.2s, 3s;
+}
+
+.load-wrapper svg path:nth-of-type(2) {
+  animation-delay: 0.4s, 3.2s;
+}
+
+.load-wrapper svg path:nth-of-type(3) {
+  animation-delay: 0.6s, 3.4s;
+}
+
+.load-wrapper svg path:nth-of-type(4) {
+  animation-delay: 0.8s, 3.6s;
+}
+
+.load-wrapper svg path:nth-of-type(5) {
+  animation-delay: 1s, 3.8s;
+}
+
+.load-wrapper svg path:nth-of-type(6) {
+  animation-delay: 1.2s, 4s;
+}
+
+.load-wrapper svg path:nth-of-type(7) {
+  animation-delay: 1.4s, 4.2s;
+}
+
+.load-wrapper svg path:nth-of-type(8) {
+  animation-delay: 1.6s, 4.4s;
+}
+
+.load-wrapper svg path:nth-of-type(9) {
+  animation-delay: 1.8s, 4.6s;
+}
+
+.load-wrapper svg path:nth-of-type(10) {
+  animation-delay: 2s, 4.8s;
+}
+
+.load-wrapper svg path:nth-of-type(11) {
+  animation-delay: 2.2s, 5s;
+}
+
+.load-wrapper svg path:nth-of-type(12) {
+  animation-delay: 2.4s, 5.2s;
+}
+
+.load-wrapper svg path:nth-of-type(13) {
+  animation-delay: 2.6s, 5.4s;
+}
+
+.load-wrapper svg path:nth-of-type(14) {
+  animation-delay: 2.8s, 5.6s;
+}
+
+.load-wrapper svg path:nth-of-type(15) {
+  animation-delay: 3s, 5.8s;
+}
+
+.load-wrapper svg path:nth-of-type(16) {
+  animation-delay: 3.2s, 6s;
+}
+
+.load-wrapper svg path:nth-of-type(17) {
+  animation-delay: 3.4s, 6.2s;
+}
+
+.load-wrapper svg path:nth-of-type(18) {
+  animation-delay: 3.6s, 6.4s;
+}
+
+.load-wrapper svg path:nth-of-type(19) {
+  animation-delay: 3.8s, 6.6s;
+}
+
+.load-wrapper svg path:nth-of-type(20) {
+  animation-delay: 4s, 6.8s;
+}
+
+.load-wrapper svg path:nth-of-type(21) {
+  animation-delay: 4.1s, 6.9s;
+}
+
+.load-wrapper svg path:nth-of-type(22) {
+  animation-delay: 4.2s, 7s;
+}
+
+.load-wrapper svg path:nth-of-type(23) {
+  animation-delay: 4.4, 7.2s;
+}
+
+.load-wrapper svg path:nth-of-type(24) {
+  animation-delay: 4.6s, 7.4s;
+}
+
+.load-wrapper svg path:nth-of-type(25) {
+  animation-delay: 4.8s, 7.6s;
+}
+
+.load-wrapper svg path:nth-of-type(26) {
+  animation-delay: 5s, 7.8s;
+}
+
+.load-wrapper svg path:nth-of-type(27) {
+  animation-delay: 5.2s, 8s;
+}
+
+.load-wrapper svg path:nth-of-type(28) {
+  animation-delay: 5.4s, 8.2s;
+}
+
+.load-wrapper svg path:nth-of-type(29) {
+  animation-delay: 5.6s, 8.4s;
+}
+
+.load-wrapper svg path:nth-of-type(30) {
+  animation-delay: 5.8s, 8.6s;
+}
+
+/* Responsive scaling */
+@media (max-width: 768px) {
+  .load-wrapper svg {
+    width: 90%;
+    max-width: 400px;
   }
 }

@@ -1,0 +1,54 @@
+/* USE THIS FOR STYLING THE GITPULL REPOS
+
+
+/* .projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.project-card {
+    border-radius: 15px;
+    padding: 20px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease;
+    font-family: "Google Sans Medium";
+    backdrop-filter: blur(5px);
+    border: 1px solid #001C55;
+    background: linear-gradient(90deg, #EDF9FE, #cedef1, rgb(201, 219, 241));
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 10px 0px #001C55;
+}
+
+.project-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.fetching-msg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: bold;
+    width: 100vw;
+    height: 100%;
+    box-sizing: border-box;
+    /* optional: space between text and SVG */
+/* }
+
+.fetching-msg i {
+    padding: 20px;
+    font-size: 32px;
+}  */

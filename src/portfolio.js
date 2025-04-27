@@ -1,6 +1,9 @@
+
 const settings = {
   isSplash: false, // Change this to false if you don't want Splash screen.
 };
+
+
 
 //SEO Related settings
 const seo = {
@@ -123,51 +126,10 @@ const skills = {
           },
         },
         {
-          skillName: "WebPack",
-          iconifyClassname: "simple-icons:webpack",
+          skillName: "Flask",
+          iconifyClassname: "simple-icons:flask",
           style: {
-            backgroundColor: "transparent",
-            color: "#8DD6F9",
-          },
-        },
-        {
-          skillName: "MongoDB",
-          iconifyClassname: "simple-icons:mongodb",
-          style: {
-            backgroundColor: "transparent",
-            color: "#47A248",
-          },
-        },
-        {
-          skillName: "Angular",
-          iconifyClassname: "simple-icons:angular",
-          style: {
-            backgroundColor: "transparent",
-            color: "#dd0836",
-          },
-        },
-        {
-          skillName: "PostgreSQL",
-          iconifyClassname: "simple-icons:postgresql",
-          style: {
-            backgroundColor: "transparent",
-            color: "#4169E1",
-          },
-        },
-        {
-          skillName: "Flutter",
-          iconifyClassname: "simple-icons:flutter",
-          style: {
-            backgroundColor: "transparent",
-            color: "#258ecf"
-          },
-        },
-        {
-          skillName: "Docker",
-          iconifyClassname: "simple-icons:docker",
-          style: {
-            backgroundColor: "transparent",
-            color: "#326CE5",
+            color: "#000000",
           },
         },
         {
@@ -179,19 +141,19 @@ const skills = {
           },
         },
         {
-          skillName: "Railway",
-          iconifyClassname: "simple-icons:railway",
+          skillName: "MongoDB",
+          iconifyClassname: "simple-icons:mongodb",
           style: {
             backgroundColor: "transparent",
-            color: "#0B0D0E",
+            color: "#47A248",
           },
         },
         {
-          skillName: "kubernetes",
-          iconifyClassname: "simple-icons:kubernetes",
+          skillName: "PostgreSQL",
+          iconifyClassname: "simple-icons:postgresql",
           style: {
             backgroundColor: "transparent",
-            color: "#326CE5",
+            color: "#4169E1",
           },
         },
         {
@@ -202,6 +164,49 @@ const skills = {
             color: "#7952b3",
           },
         },
+        {
+          skillName: "Angular",
+          iconifyClassname: "simple-icons:angular",
+          style: {
+            backgroundColor: "transparent",
+            color: "#dd0836",
+          },
+        },
+
+        {
+          skillName: "Flutter",
+          iconifyClassname: "simple-icons:flutter",
+          style: {
+            backgroundColor: "transparent",
+            color: "#258ecf"
+          },
+        },
+        {
+          skillName: "Railway",
+          iconifyClassname: "simple-icons:railway",
+          style: {
+            backgroundColor: "transparent",
+            color: "#0B0D0E",
+          },
+        },
+        {
+          skillName: "Docker",
+          iconifyClassname: "simple-icons:docker",
+          style: {
+            backgroundColor: "transparent",
+            color: "#326CE5",
+          },
+        },
+
+        {
+          skillName: "kubernetes",
+          iconifyClassname: "simple-icons:kubernetes",
+          style: {
+            backgroundColor: "transparent",
+            color: "#326CE5",
+          },
+        },
+
       ],
     },
     {
@@ -408,11 +413,13 @@ const certifications = {
   ],
 };
 
+
+
 // Projects Page
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects are open-source and are mostly built using small scale infrastructure.",
+    "My projects are open-source and I'm more than interested to collaborate",
 
   sections: [
     {
@@ -486,7 +493,15 @@ const ProjectIcs = {
         color: "#3DDC84",
       },
 
-    }, {
+    },
+    {
+      siteName: "React Bootstrap",
+      iconifyClassname: "simple-icons:reactbootstrap",
+      style: {
+        color: "#7952B3",
+      },
+    },
+    {
       siteName: "Angular",
       iconifyClassname: "simple-icons:angular",
       style: {
@@ -516,12 +531,14 @@ const ProjectIcs = {
       },
     },
     {
-      siteName: "React Bootstrap",
-      iconifyClassname: "simple-icons:reactbootstrap",
+      siteName: "Railway",
+      iconifyClassname: "simple-icons:railway",
       style: {
-        color: "#7952B3",
+        backgroundColor: "transparent",
+        color: "#0B0D0E",
       },
     },
+
     {
       siteName: "Docker",
       iconifyClassname: "simple-icons:docker",
