@@ -21,14 +21,35 @@ const SkeletonLoader = ({ theme }) => {
   );
 };
 
-const AddProjectCard = ({ title, desc, url, language, theme }) => {
+const AddProjectCard = ({ title, desc, url, language, launch, theme }) => {
   return (
     <div className="project-card" style={{ backgroundColor: theme.imageDark }}>
-      <h3 style={{ color: theme.text }}>{title}</h3>
+    <div className="title-page"><h3 style={{ color: theme.text }}>{title}</h3> 
+    <div className="page-launch">
+  {launch ? (
+    <>
+      <p style={{textDecoration:'underline'}}>Launch the hosted service :</p>
+      <Button
+        icon={<i className="fa-solid fa-rocket"></i>}
+        href={launch}
+        theme={theme}
+        newTab={true}
+        radius={100}
+      />
+    </>
+  ) : (
+    <p style={{ color: theme.secondaryText, fontWeight: '600' }}>
+                      Service not hosted yet <i class="fa-solid fa-triangle-exclamation"></i>
+                    </p>
+  )}
+</div>
+
+    </div>
       <p style={{ color: theme.secondaryText }}>{desc}</p>
       <div className="project-card-footer">
         <p style={{ color: theme.accentColor }}>{language}</p>
-        <Button className="card-btn" icon={<i class="fa-brands fa-github"></i>} href={url} theme={theme} newTab radius={100} />
+        <div><span className="hover-msg">Visit GitHub</span>
+        <Button className="card-btn" icon={<i class="fa-brands fa-github"></i>} href={url} theme={theme} newTab radius={100} /></div>
       </div>
     </div>
   );
@@ -56,7 +77,9 @@ const FetchGitHub = ({ theme, loading, setLoading, setFetched, fallback, setFall
             desc: repo.description || "No description available.",
             url: repo.html_url,
             language: repo.language || "Mixed",
+            launch: repo.homepage,
           }));
+        console.log(data.homepage);
         localStorage.setItem('projectsData', JSON.stringify(formattedData));
         setProjects(formattedData);
         setFetched(true);

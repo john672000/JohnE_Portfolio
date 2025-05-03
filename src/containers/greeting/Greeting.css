@@ -37,12 +37,14 @@
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
+
 }
 
 .greeting-nickname {
   font-size: 30px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
+  
 }
 
 

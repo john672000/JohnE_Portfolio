@@ -197,10 +197,22 @@
   }
 }
 
-.project-card:hover .card-btn {
+.project-card:hover 
+.card-btn {
   animation: bounce 0.5s ease-out;
 
 }
+
+
+.project-card:hover .page-launch {
+  opacity: 1;
+}
+
+.project-card:hover .hover-msg {
+  opacity: 1;
+  animation: bounce 0.5s ease-out;
+}
+
 
 
 
@@ -227,4 +239,25 @@
 .fetching-msg i {
   padding: 20px;
   font-size: 32px;
+}
+
+
+.title-page{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-launch{
+  display: flex;
+  opacity: 0;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.hover-msg{
+  display: flex;
+  opacity: 0;
+  margin-right: 35%;
+  text-align: center;
 }
