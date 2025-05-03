@@ -28,7 +28,6 @@ const AddProjectCard = ({ title, desc, url, language, launch, theme }) => {
     <div className="page-launch">
   {launch ? (
     <>
-      <p style={{textDecoration:'underline'}}>Launch the hosted service :</p>
       <Button
         icon={<i className="fa-solid fa-rocket"></i>}
         href={launch}
