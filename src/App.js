@@ -7,7 +7,7 @@ import { GlobalStyles } from "./global";
 import LoaderLogo from "./components/Loader/LoaderLogo";
 
 function App() {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
