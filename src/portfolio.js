@@ -21,10 +21,10 @@ const greeting = {
   title: "John Emmanuel",
 
   subtitle1:
-    "|| Software Developer || Cross-Platform Developer || Cloud & AI Enthusiast || Data Engineer ||",
+    "|| Full-Stack Developer || Cloud & AI Enthusiast || ML & Data Engineer || DevOps Learner ||",
 
   subTitle:
-    "I am a passionate Software Engineer with expertise in Android development, Web applications, Cloud technologies, and Artificial Intelligence. My experience spans across Java, Python, Flutter, JavaScript (Supersets), DBMS & Cloud Services, where I have successfully built scalable and high-performing applications.",
+    "• I am a passionate Software Engineer with a solid foundation in Data Structures and Algorithms. My technical expertise spans accross Android development, Modern web applications, Cloud technologies, and Artificial Intelligence. I have hands-on experience with  Python, Java, Flutter, JavaScript (and its supersets), as well as robust backend systems using DBMS and cloud services. I thrive on building scalable, high-performance applications that solve real-world problems.",
   resumeLink:
     "https://drive.google.com/file/d/1d4DpW-1VLCGjng6glTCpXQJ4gYXfh4I3/view?usp=sharing",
   githubProfile: "https://github.com/Motupallisailohith",
@@ -57,10 +57,10 @@ const skills = {
     {
       title: "Machine Learning & AI",
       skills: [
-        "🌟 Fine-tune and deploy machine learning models using TensorFlow, Keras, and PyTorch for natural language processing (NLP) tasks.",
-        "🌟 Utilize pretrained models like BERT with frameworks such as PyTorch and TensorFlow for tasks like named entity recognition (NER).",
-        "🌟 Develop and integrate AI models into applications for data extraction and analysis using Scikit-learn and deep learning libraries.",
-        "🌟 Process various forms of data, including text and audio, with machine learning techniques leveraging TensorFlow, Keras, and Scikit-learn.",
+        "Fine-tune and deploy machine learning models using TensorFlow, Keras, and PyTorch for natural language processing (NLP) tasks.",
+        "Utilize pretrained models like BERT with frameworks such as PyTorch and TensorFlow for tasks like named entity recognition (NER).",
+        "Develop and integrate AI models into applications for data extraction and analysis using Scikit-learn and deep learning libraries.",
+        "Process various forms of data, including text and audio, with machine learning techniques leveraging TensorFlow, Keras, and Scikit-learn.",
 
       ],
       softwareSkills: [
@@ -102,10 +102,11 @@ const skills = {
       title: "Full-Stack Development",
       fileName: "DataScienceImg",
       skills: [
-        "🌟 Build and deploy full stack applications using Node.js, FastAPI, and .NET for backend services, enabling robust API development and real-time processing.",
-        "🌟 Develop modern frontend interfaces using Angular, Flutter (for cross-platform apps), and React Bootstrap, with efficient bundling through Webpack.",
-        "🌟 Design seamless data layers and ensure reliable operations using PostgreSQL and MongoDB, incorporating thorough validation and error handling.",
-        "🌟 Implement scalable workflows with clean architecture, real-time communication, and comprehensive documentation across the full stack.",
+        "Built and deployed full-stack applications using Node.js, FastAPI, and .NET for backend services, enabling the development of robust, scalable APIs and real-time data processing capabilities.",
+        "Leveraged Docker to containerize backend services, ensuring consistent and reliable performance across different environments.",
+        "Deployed applications seamlessly on Railway, enabling fast, efficient, and scalable deployment with minimal configuration.",
+        "Developed modern, responsive frontend interfaces using Angular, Flutter (for cross-platform apps), and React Bootstrap, focusing on creating intuitive user experiences.",
+        "Designed and implemented seamless data layers with PostgreSQL and MongoDB, ensuring reliable storage and management of data.",
 
       ],
       softwareSkills: [
@@ -212,10 +213,10 @@ const skills = {
     {
       title: "Cloud Infra-Architecture",
       skills: [
-        "🌟 Deploy applications and machine learning models on cloud platforms.",
-        "🌟 Set up and manage cloud-based resources (e.g., storage, databases, computing).",
-        "🌟 Automate deployment processes using CI/CD pipelines for cloud-based applications.",
-        "🌟 Ensure scalability and reliability of applications in the cloud environment.",
+        "Deploy applications and machine learning models on cloud platforms.",
+        "Set up and manage cloud-based resources (e.g., storage, databases, computing).",
+        "Automate deployment processes using CI/CD pipelines for cloud-based applications.",
+        "Ensure scalability and reliability of applications in the cloud environment.",
       ],
       softwareSkills: [
         {
@@ -273,7 +274,7 @@ const competitiveSites = {
       siteName: "GitHub",
       iconifyClassname: "simple-icons:github",
       style: {
-        color: "#303030",
+        color: "#000000",
       },
       profileLink: "https://github.com/john672000",
     },
@@ -284,7 +285,7 @@ const competitiveSites = {
 const eduHeader = {
   title: "Education & Participation",
   description:
-    "I hold both a Master's and Bachelor's degree in Computer Science and Engineering.",
+    "• I hold both Master's and Bachelor's degree in Computer Science and Engineering from prestigious universities •",
 
   sections: [
     {
@@ -298,7 +299,7 @@ const eduHeader = {
           duration: "Master's in Computer Science, Missouri, United States of America",
           location: "2022-2024",
           description:
-            "During my Master's in Computer Science and Engineering, I gained a deep understanding of Advanced Algorithms, Advanced Operating Systems, and Advanced Database Systems, which enhanced my problem-solving and technical skills. Additionally, I explored cutting-edge topics such as Cloud Computing, Machine Learning, and Big Data Analytics, which allowed me to develop expertise in modern computing paradigms and data-driven technologies.",
+            "During my Master's program in Computer Science and Engineering, I gained a comprehensive and in-depth understanding of several advanced core areas, including Advanced Algorithms, Advanced Operating Systems, and Advanced Database Systems. These subjects played a crucial role in honing my problem-solving abilities and significantly strengthening my technical expertise. In addition to these foundational courses, I actively explored a wide range of cutting-edge topics such as Cloud Computing, Machine Learning, and Big Data Analytics. Through these studies, I developed a specialized and practical knowledge of modern computing paradigms and data-driven technologies. This experience has not only broadened my technical skill set but has also provided me with the ability to apply advanced concepts to solve real-world challenges in the rapidly evolving field of technology.",
           color: "#0879bf",
         },
         {
@@ -309,7 +310,7 @@ const eduHeader = {
           duration: "Bachelor's in Computer Science & Engineering, Tamil Nadu, India",
           location: "2018-2022",
           description:
-            "Throughout my Bachelor's in Computer Science and Engineering, I built a strong foundation in core concepts such as Data Structures & Algorithms and Advanced Java. I also gained proficiency in multiple programming languages, including Python, C/C++, and C#, which helped me develop versatile software development skills. Additionally, I explored the fundamentals of Machine Learning, allowing me to apply data-driven approaches to solve complex problems.",
+            "Throughout my Bachelor's degree in Computer Science and Engineering, I cultivated a solid and comprehensive foundation in essential concepts, including Data Structures & Algorithms and Advanced Java. These core subjects not only deepened my understanding of fundamental computer science principles but also sharpened my problem-solving abilities, which are vital for tackling complex technical challenges. In parallel, I gained proficiency in a diverse range of programming languages such as Python, C/C++, and C#, which greatly contributed to my ability to develop flexible and scalable software solutions. This versatility in languages empowered me to adapt to various development environments and projects. Additionally, I delved into the foundational aspects of Machine Learning, where I explored data-driven techniques and algorithms to analyze patterns and solve intricate problems. This exposure has provided me with a strong understanding of how to leverage data and algorithms to build intelligent systems and make informed, data-centric decisions.",
           color: "#0879bf",
         },
       ],
@@ -322,7 +323,7 @@ const experience = {
   title: "Experience & Certifications",
   subtitle: "Work & Internship",
   description:
-    "I have worked in various companies and with diffrent technologies. I also actively participate in Hackathons. ",
+    "• I have worked in various companies and with diffrent technologies. I also actively participate in Hackathons •",
   header_image_path: "experience.svg",
   sections: [
     {
@@ -336,7 +337,7 @@ const experience = {
           duration: "OCT 2024 - CURRENT",
           location: "United States of America",
           description:
-            "Developed cross-platform mobile applications using Flutter, ensuring consistent performance and user experience across iOS and Android. Built and maintained RESTful APIs with .NET Core, improving backend performance and scalability by optimizing request handling and reducing response times by 30%. Integrated Python FastAPI with machine learning models to process and analyze real-time data, enhancing data processing efficiency by 40%. Implemented data synchronization between mobile applications and backend services, improving data accuracy and consistency across platforms. Utilized containerization technologies like Docker for seamless deployment of backend services, reducing deployment time by 25%. Integrated authentication mechanisms (e.g., OAuth2) for secure user login and data access in mobile and web applications, improving overall security by 35%. Optimized API endpoints in .NET Core and FastAPI, reducing response times and improving user satisfaction by 20%. Collaborated with frontend and backend teams using Git and GitHub, ensuring version control and improving code integration and team productivity by 30%.",
+            "Developed highly functional and cross-platform mobile applications using Flutter, ensuring consistent performance, seamless user interactions, and a unified experience across both iOS and Android devices. As part of my responsibilities, I built and maintained efficient, robust RESTful APIs with .NET Core, significantly enhancing backend performance and scalability by optimizing request handling, which led to a notable reduction in response times by 30%. Additionally, I integrated Python’s FastAPI with advanced machine learning models to process and analyze real-time data streams, resulting in a 40% improvement in overall data processing efficiency.To ensure synchronization between mobile applications and backend services, I implemented real-time data synchronization mechanisms, which greatly enhanced data accuracy, consistency, and overall reliability across platforms. I also utilized containerization technologies, such as Docker, for streamlined and efficient deployment of backend services, achieving a 25% reduction in deployment time.In terms of security, I integrated advanced authentication mechanisms, including OAuth2, to ensure secure user login and access to sensitive data in both mobile and web applications, leading to a 35% improvement in overall security. To further enhance performance, I optimized key API endpoints in both .NET Core and FastAPI, significantly reducing response times and increasing user satisfaction by 20%. Collaborating effectively with both frontend and backend development teams, I utilized Git and GitHub for version control and code management. This facilitated smooth code integration and increased overall team productivity by 30%, fostering an efficient and cohesive development workflow.",
           color: "#0879bf",
         },
         {
@@ -419,7 +420,7 @@ const certifications = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects are open-source and I'm more than interested to collaborate",
+    "• My projects are open-source and I'm more than interested to collaborate & you're more than welcome to contact me •",
 
   sections: [
     {

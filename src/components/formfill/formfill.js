@@ -1,13 +1,15 @@
 import React, { useState } from "react";
 import "./formfill.css";
+import Button from "../button/Button";
 
-const ContactForm = () => {
+const ContactForm = ({ theme }) => {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
         message: "",
     });
     const [buttonText, setButtonText] = useState("Submit");
+    const [ico, setIco] = useState("");
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
@@ -17,8 +19,11 @@ const ContactForm = () => {
         });
     };
 
+
     const handleSubmit = (e) => {
         e.preventDefault(); // Prevent default form submission
+        setIco(<i class="fa-solid fa-circle-notch fa-spin"></i>);
+        setButtonText("");
 
         const formUrl =
             "https://docs.google.com/forms/d/e/1FAIpQLScyLCkgBUwnpH5gpHcncY8k9vWB20UQOcLFLas4JT4FSRG4Tg/formResponse";
@@ -37,11 +42,11 @@ const ContactForm = () => {
             mode: "no-cors",
         })
             .then(() => {
-                setButtonText("Submitted Successfully!");
                 setTimeout(() => {
-                    setButtonText("Submit");
+                    setButtonText("Submitted ✔");
                     setFormData({ name: "", email: "", message: "" });
-                }, 3000);
+                    setIco();
+                }, 5000);
             })
             .catch((error) => console.error("Error submitting form:", error));
     };
@@ -56,6 +61,7 @@ const ContactForm = () => {
                         <input
                             type="text"
                             id="name"
+                            placeholder="Name"
                             name="name"
                             value={formData.name}
                             onChange={handleInputChange}
@@ -68,6 +74,7 @@ const ContactForm = () => {
                         <input
                             type="email"
                             id="email"
+                            placeholder="E-Mail"
                             name="email"
                             value={formData.email}
                             onChange={handleInputChange}
@@ -80,15 +87,23 @@ const ContactForm = () => {
                         <textarea
                             id="message"
                             name="message"
+                            placeholder="Message"
                             value={formData.message}
                             onChange={handleInputChange}
                             required
                         />
                     </div>
                 </div>
-                <div className="frmbtn">
-                    <button type="submit">{buttonText}</button>
+                <div className="form-btn-container">
+                    <Button
+                        text={buttonText}
+                        icon={ico}
+                        theme={theme}
+                        type="submit"
+                    />
                 </div>
+
+
             </form>
         </div>
     );

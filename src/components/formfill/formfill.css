@@ -17,6 +17,16 @@
     text-decoration: underline;
 }
 
+.form-btn-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    /* match .form-cmpnts */
+    margin-top: 10px;
+}
+
+
 .form-cmpnts {
     display: flex;
     flex-direction: column;
@@ -73,49 +83,7 @@ textarea {
 
 }
 
-.frmbtn {
-    background-color: #001c55;
-    border: solid 1px #55198b;
-    color: white;
-    font-weight: 500;
-    line-height: 1.1;
-    width: max-content;
-    padding: 13px 22px;
-    border-radius: 6px;
-    font-family: "Google Sans Regular";
-    margin: 20px auto 0 auto;
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
 
-
-
-}
-
-.frmbtn button {
-    background-color: #ffffff00;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: none;
-    font-family: "Google Sans Medium";
-    padding: 2px 5px;
-    font-size: 16px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: background-color 0.3s ease-in-out;
-    border-radius: 5px;
-    width: 100%;
-}
-
-.frmbtn button:hover {
-    background-color: #0057b300;
-    color: black;
-    /* Darker blue on hover */
-}
 
 .frmbtn:hover {
     background-color: #ffffff;
@@ -154,7 +122,5 @@ textarea {
     .frmbtn button {
         font-size: 14px;
     }
-
-
 
 }

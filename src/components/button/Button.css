@@ -23,6 +23,12 @@
   /* color: black; */
   transition: ease-in 0.3s;
 }
+.main-button svg {
+  background: transparent;
+  border: none;
+  fill: currentColor; /* Makes icon match text color */
+}
+
 
 .project-button {
   display: flex;

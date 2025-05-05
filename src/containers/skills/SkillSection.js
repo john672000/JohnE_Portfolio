@@ -14,23 +14,27 @@ class SkillSection extends Component {
           return (
             <div className="skills-main-div">
 
-              <Fade left duration={1000}>
+              <Fade right duration={1000}>
                 <h1 className="skills-heading" style={{ color: theme.text }}>
                   {skill.title}
                 </h1>
               </Fade>
-              <Fade duration={2000}>
+              <Fade left duration={1200}>
                 <SoftwareSkill className="logos-skills" logos={skill.softwareSkills} />
               </Fade>
-              <Fade right duration={1000}>
+              <Fade right duration={1500}>
                 <div>
                   {skill.skills.map((skillSentence) => {
                     return (
                       <p
                         className="subTitle skills-text"
-                        style={{ color: theme.secondaryText }}
+                        style={{
+                          color: theme.secondaryText,
+                          fontFamily: "Google Sans Medium"
+
+                        }}
                       >
-                        {skillSentence}
+                        <p>• {skillSentence}</p>
                       </p>
                     );
                   })}

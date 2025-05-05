@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.c0f5f8b3.css",
-    "main.js": "./static/js/main.14b1ca81.js",
+    "main.css": "./static/css/main.660b8651.css",
+    "main.js": "./static/js/main.8474913d.js",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/UCM.png": "./static/media/UCM.83984b141ff759b81605.png",
@@ -16,7 +16,6 @@
     "static/media/fa-regular-400.svg": "./static/media/fa-regular-400.4e8f9fa44f7ec7479c39.svg",
     "static/media/fa-brands-400.eot": "./static/media/fa-brands-400.b09f783b99c88d6989f7.eot",
     "static/media/fa-brands-400.ttf": "./static/media/fa-brands-400.ec7723ea62ad74c14959.ttf",
-    "static/media/intro.gif": "./static/media/intro.c0c2f01083736d90f19a.gif",
     "static/media/GoogleSans-Italic.ttf": "./static/media/GoogleSans-Italic.40bb50bd202405745006.ttf",
     "static/media/GoogleSans-MediumItalic.ttf": "./static/media/GoogleSans-MediumItalic.56d4f777a7997e5a10b3.ttf",
     "static/media/GoogleSans-BoldItalic.ttf": "./static/media/GoogleSans-BoldItalic.d282e9c31d0f894a7f06.ttf",
@@ -36,17 +35,19 @@
     "static/media/github_logo.png": "./static/media/github_logo.15e591a7397b9ef45656.png",
     "static/media/Name.svg": "./static/media/Name.355eed6b27ad2feebfa8d7fa0137b70d.svg",
     "static/media/android.png": "./static/media/android.56d8afd84441cc8002dc.png",
+    "static/media/sig-light.png": "./static/media/sig-light.b7a3dc5a88559f0d5e83.png",
+    "static/media/sig-dark.png": "./static/media/sig-dark.d98ad5f8529272f9b8ab.png",
     "static/media/fa-regular-400.woff": "./static/media/fa-regular-400.2ccf005a6998d30de3d3.woff",
     "static/media/my_sign.png": "./static/media/my_sign.277caad345c8a98acf6b.png",
     "static/media/fa-regular-400.woff2": "./static/media/fa-regular-400.e5917ad1531005ea8c3f.woff2",
     "static/media/plural.png": "./static/media/plural.888144648b29ba9de28c.png",
     "index.html": "./index.html",
     "static/media/fetching.svg": "./static/media/fetching.4176a382c13402c9c8f3.svg",
-    "main.c0f5f8b3.css.map": "./static/css/main.c0f5f8b3.css.map",
-    "main.14b1ca81.js.map": "./static/js/main.14b1ca81.js.map"
+    "main.660b8651.css.map": "./static/css/main.660b8651.css.map",
+    "main.8474913d.js.map": "./static/js/main.8474913d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c0f5f8b3.css",
-    "static/js/main.14b1ca81.js"
+    "static/css/main.660b8651.css",
+    "static/js/main.8474913d.js"
   ]
 }

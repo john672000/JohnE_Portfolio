@@ -11,11 +11,11 @@ import Typewriter from "react-typewriter-effect";
 
 const SkeletonLoader = ({ theme }) => {
   return (
-    <div className="project-card skeleton" style={{ backgroundColor: theme.imageDark }}>
-      <div className="skeleton-text skeleton-title" style={{ backgroundColor: theme.accentColor }}></div>
+    <div className="project-card skeleton" style={{ backgroundColor: theme.highlight }}>
+      <div className="skeleton-text skeleton-title" style={{ backgroundColor: theme.text }}></div>
       <div className="skeleton-text skeleton-desc" style={{ backgroundColor: theme.secondaryText }}></div>
       <div className="skeleton-footer">
-        <div className="skeleton-text skeleton-lang" style={{ backgroundColor: theme.accentColor }}></div>
+        <div className="skeleton-text skeleton-lang" style={{ backgroundColor: theme.highlight }}></div>
       </div>
     </div>
   );
@@ -23,32 +23,32 @@ const SkeletonLoader = ({ theme }) => {
 
 const AddProjectCard = ({ title, desc, url, language, launch, theme }) => {
   return (
-    <div className="project-card" style={{ backgroundColor: theme.imageDark }}>
-    <div className="title-page"><h3 style={{ color: theme.text }}>{title}</h3> 
-    <div className="page-launch">
-  {launch ? (
-    <>
-      <Button
-        icon={<i className="fa-solid fa-rocket"></i>}
-        href={launch}
-        theme={theme}
-        newTab={true}
-        radius={100}
-      />
-    </>
-  ) : (
-    <p style={{ color: theme.secondaryText, fontWeight: '600' }}>
-                      Service not hosted yet <i class="fa-solid fa-triangle-exclamation"></i>
-                    </p>
-  )}
-</div>
+    <div className="project-card" style={{ backgroundColor: theme.headerColor, borderColor: theme.highlight }}>
+      <div className="title-page"><h3 style={{ color: theme.text }}>{title}</h3>
+        <div className="page-launch">
+          {launch ? (
+            <>
+              <Button
+                icon={<i className="fa-solid fa-rocket"></i>}
+                href={launch}
+                theme={theme}
+                newTab={true}
+                radius={100}
+              />
+            </>
+          ) : (
+            <p style={{ color: theme.secondaryText, fontWeight: '600', userSelect: "none" }}>
+              Service <i class="fa-solid fa-triangle-exclamation"></i>
+            </p>
+          )}
+        </div>
 
-    </div>
-      <p style={{ color: theme.secondaryText }}>{desc}</p>
+      </div>
+      <p style={{ color: theme.secondaryText, userSelect: "none" }}>{desc}</p>
       <div className="project-card-footer">
-        <p style={{ color: theme.accentColor }}>{language}</p>
-        <div><span className="hover-msg">Visit GitHub</span>
-        <Button className="card-btn" icon={<i class="fa-brands fa-github"></i>} href={url} theme={theme} newTab radius={100} /></div>
+        <p style={{ color: theme.accentColor, userSelect: "none" }} >{language}</p>
+        <div><span className="hover-msg" style={{ color: theme.accentColor, userSelect: "none" }}>Visit GitHub</span>
+          <Button className="card-btn" icon={<i class="fa-brands fa-github"></i>} href={url} theme={theme} newTab radius={100} /></div>
       </div>
     </div>
   );
@@ -145,7 +145,6 @@ class Projects extends Component {
     const { loading, fetched, fallback } = this.state;
     return (
       <div className="experience-main">
-        <Header theme={theme} />
         <div className="basic-experience">
           <Fade bottom duration={2000} distance="40px">
             <div className="experience-heading-div">

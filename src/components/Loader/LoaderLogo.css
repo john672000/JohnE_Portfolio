@@ -4,7 +4,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #EDF9FE;
   overflow: hidden;
 }
 
@@ -43,7 +42,7 @@
 
 
 .load-wrapper svg path {
-  stroke: #001C55;
+  stroke: currentColor;
   stroke-width: 2;
   fill: none;
   stroke-dasharray: 2000;
@@ -65,7 +64,7 @@
   }
 
   to {
-    fill: #001C55;
+    fill: currentColor;
   }
 }
 

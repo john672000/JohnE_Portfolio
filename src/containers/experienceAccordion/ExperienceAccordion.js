@@ -24,7 +24,7 @@ class ExperienceAccordion extends Component {
                       backgroundColor: `${theme.body}`,
                       border: `1px solid`,
                       borderRadius: `5px`,
-                      borderColor: `${theme.headerColor}`,
+                      borderColor: `${theme.highlight}`,
                       marginBottom: `3px`,
                       fontFamily: "Google Sans Regular",
                       color: `${theme.text}`,
@@ -33,6 +33,8 @@ class ExperienceAccordion extends Component {
                   Content: {
                     style: () => ({
                       backgroundColor: `${theme.body}`,
+                      fontFamily: "Google Sans Regular",
+                      fontSize: '15px'
                     }),
                   },
                 }}

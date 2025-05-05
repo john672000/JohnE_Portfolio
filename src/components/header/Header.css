@@ -76,7 +76,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #333;
+  background: currentColor;
   display: block;
   height: 2px;
   position: relative;
@@ -86,7 +86,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #333;
+  background: currentColor;
   content: "";
   display: block;
   height: 100%;
@@ -107,6 +107,7 @@
 
 .header .menu-btn {
   display: none;
+
 }
 
 .header .menu-btn:checked~.menu {
@@ -114,20 +115,24 @@
 }
 
 .header .menu-btn:checked~.menu-icon .navicon {
-  background: transparent;
+  background: currentColor;
 }
 
 .header .menu-btn:checked~.menu-icon .navicon:before {
   transform: rotate(-45deg);
+  top: 0;
 }
 
 .header .menu-btn:checked~.menu-icon .navicon:after {
   transform: rotate(45deg);
+  top: 0;
+
 }
 
 .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked~.menu-icon:not(.steps) .navicon:after {
   top: 0;
+  background: transparent;
 }
 
 /* 48em = 768px */

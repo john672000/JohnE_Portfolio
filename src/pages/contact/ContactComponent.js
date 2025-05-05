@@ -7,8 +7,7 @@ import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 import ContactForm from "../../components/formfill/formfill.js";
-import sign from '../../assests/images/my_sign.png';
-import logo from "../../components/Loader/LoaderLogo.js";
+
 
 const ContactData = contactPageData.contactSection;
 const addressSection = contactPageData.addressSection;
@@ -18,9 +17,9 @@ class Contact extends Component {
   render() {
 
     const theme = this.props.theme;
+    const sign = this.props.sign;
     return (
       <div className="contact-main">
-        <Header theme={theme} />
         <div className="basic-contact">
           <Fade top duration={1000} distance="30px">
             <div className="contact-heading-div">
@@ -34,7 +33,7 @@ class Contact extends Component {
                   alt=""
                 />
 
-                <ContactForm />
+                <ContactForm theme={theme} />
 
               </div>
               <div className="contact-heading-text-div">

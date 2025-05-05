@@ -159,13 +159,12 @@
   font-family: "Google Sans Medium";
   backdrop-filter: blur(5px);
 
-  background: linear-gradient(270deg, #EDF9FE, #cedef1, #c9e2fa);
 
 }
 
 .project-card:hover {
   transform: scale(0.98);
-  border: 0.5px solid black;
+  border: 0.5px solid;
   transition: all 0.2s ease-in-out;
   background: #EDF9FE;
 }

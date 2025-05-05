@@ -8,7 +8,11 @@ class ExperienceCard extends Component {
     return (
       <div
         className="experience-card"
-        style={{ border: `1px solid ${experience["color"]}` }}
+        style={{
+          backgroundColor: theme.headerColor, fontFamily: "Google Sans Regular", border: `1px solid`,
+          borderRadius: `5px`,
+          borderColor: `${theme.secondaryText}`,
+        }}
       >
         <div className="experience-card-logo-div">
           <img
