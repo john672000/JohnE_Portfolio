@@ -130,7 +130,7 @@ const skills = {
           skillName: "Flask",
           iconifyClassname: "simple-icons:flask",
           style: {
-            color: "#000000",
+            color: "#4B5563",
           },
         },
         {
@@ -187,7 +187,7 @@ const skills = {
           iconifyClassname: "simple-icons:railway",
           style: {
             backgroundColor: "transparent",
-            color: "#0B0D0E",
+            color: "#4B5563",
           },
         },
         {
@@ -488,6 +488,21 @@ const projectsHeader = {
 const ProjectIcs = {
   projicns: [
     {
+      siteName: "Python FastAPI",
+      iconifyClassname: "simple-icons:fastapi",
+      style: {
+        color: "#009688",
+      },
+
+    },
+    {
+      siteName: "Flask",
+      iconifyClassname: "simple-icons:flask",
+      style: {
+        color: "#4B5563",
+      },
+    },
+    {
       siteName: "Android Studio",
       iconifyClassname: "simple-icons:androidstudio",
       style: {
@@ -517,37 +532,6 @@ const ProjectIcs = {
       },
     },
     {
-      siteName: "Python FastAPI",
-      iconifyClassname: "simple-icons:fastapi",
-      style: {
-        color: "#009688",
-      },
-
-    },
-    {
-      siteName: "Flask",
-      iconifyClassname: "simple-icons:flask",
-      style: {
-        color: "#000000",
-      },
-    },
-    {
-      siteName: "Railway",
-      iconifyClassname: "simple-icons:railway",
-      style: {
-        backgroundColor: "transparent",
-        color: "#0B0D0E",
-      },
-    },
-
-    {
-      siteName: "Docker",
-      iconifyClassname: "simple-icons:docker",
-      style: {
-        color: "#2496ED",
-      },
-    },
-    {
       siteName: "PostgreSQL",
       iconifyClassname: "simple-icons:postgresql",
       style: {
@@ -561,6 +545,21 @@ const ProjectIcs = {
       style: {
         backgroundColor: "transparent",
         color: "#47A248",
+      },
+    },
+    {
+      siteName: "Docker",
+      iconifyClassname: "simple-icons:docker",
+      style: {
+        color: "#2496ED",
+      },
+    },
+    {
+      siteName: "Railway",
+      iconifyClassname: "simple-icons:railway",
+      style: {
+        backgroundColor: "transparent",
+        color: "#4B5563",
       },
     },
 

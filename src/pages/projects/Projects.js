@@ -104,6 +104,8 @@ const FetchGitHub = ({ theme, loading, setLoading, setFetched, fallback, setFall
     return <ExperienceAccordion sections={projectsHeader["sections"]} theme={theme} />;
   }
 
+
+
   return (
     <>
       <div className="projects-container">

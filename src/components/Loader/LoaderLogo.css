@@ -43,7 +43,7 @@
 
 .load-wrapper svg path {
   stroke: currentColor;
-  stroke-width: 2;
+  stroke-width: 0.5;
   fill: none;
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;

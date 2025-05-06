@@ -1,17 +1,19 @@
-//Light Theme
 export const lightTheme = {
-  body: "#F0F8FF",              // AliceBlue – light and airy
-  text: "#1B1F3B",              // Dark navy for crisp readability
-  expTxtColor: "#2D3A53",       // Steel blue for subtitles
-  highlight: "#A7D8FF",         // Sky blue highlight
-  dark: "#0B0F29",              // Deep navy for splash
-  secondaryText: "#5B7083",     // Muted cool grey
-  imageHighlight: "#D0EBFF",    // Pale blue image background
-  compImgHighlight: "#E5F4FF",  // Component cards
-  jacketColor: "#009EF7",       // Strong blue accent (Azure)
-  headerColor: "#EAF6FF",       // Lighter header background
-  splashBg: "#B3E5FC",          // Animated splash blue
+  body: "#F5F9FF",              // Soft blue-tinted white
+  text: "#121826",              // Deep navy-black for clarity
+  expTxtColor: "#374A67",       // Muted slate blue
+  highlight: "#90CDF4",         // Mid-level blue (visible but not neon)
+  dark: "#1E293B",              // Slate dark
+  secondaryText: "#64748B",     // Subtle grey-blue
+  imageHighlight: "#D6E4F0",    // Cool misty blue
+  compImgHighlight: "#E8F1FB",  // Frosty light blue
+  jacketColor: "#2563EB",       // Strong but clean blue (royal-ish)
+  headerColor: "#F0F6FF",       // Slightly colored header
+  splashBg: "#BEE3F8",          // Lighter but noticeable splash
 };
+
+
+
 
 
 

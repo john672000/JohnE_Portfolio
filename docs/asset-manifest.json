@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.660b8651.css",
-    "main.js": "./static/js/main.8474913d.js",
+    "main.css": "./static/css/main.7bc66138.css",
+    "main.js": "./static/js/main.59784321.js",
     "static/media/fa-solid-900.svg": "./static/media/fa-solid-900.9fa614346b4e81decc62.svg",
     "static/media/fa-brands-400.svg": "./static/media/fa-brands-400.6fcab609e2f62d5c3104.svg",
     "static/media/UCM.png": "./static/media/UCM.83984b141ff759b81605.png",
@@ -43,11 +43,11 @@
     "static/media/plural.png": "./static/media/plural.888144648b29ba9de28c.png",
     "index.html": "./index.html",
     "static/media/fetching.svg": "./static/media/fetching.4176a382c13402c9c8f3.svg",
-    "main.660b8651.css.map": "./static/css/main.660b8651.css.map",
-    "main.8474913d.js.map": "./static/js/main.8474913d.js.map"
+    "main.7bc66138.css.map": "./static/css/main.7bc66138.css.map",
+    "main.59784321.js.map": "./static/js/main.59784321.js.map"
   },
   "entrypoints": [
-    "static/css/main.660b8651.css",
-    "static/js/main.8474913d.js"
+    "static/css/main.7bc66138.css",
+    "static/js/main.59784321.js"
   ]
 }
