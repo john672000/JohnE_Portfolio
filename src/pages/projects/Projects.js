@@ -146,9 +146,9 @@ class Projects extends Component {
     const theme = this.props.theme;
     const { loading, fetched, fallback } = this.state;
     return (
-      <div className="experience-main">
-        <div className="basic-experience">
-          <Fade bottom duration={2000} distance="40px">
+      <Fade bottom duration={2000} distance="40px">
+        <div className="experience-main">
+          <div className="basic-experience">
             <div className="experience-heading-div">
               <div className="experience-heading-text-div">
                 <h1
@@ -195,21 +195,19 @@ class Projects extends Component {
                 </p>
               </div>
             </div>
-            <Fade bottom duration={1000} distance="40px">
-              <FetchGitHub
-                theme={theme}
-                setLoading={this.setLoading}
-                setFetched={this.setFetched}
-                loading={loading}
-                fallback={fallback}
-                setFallback={this.setFallback}
-              />
-            </Fade>
-          </Fade>
-        </div>
+            <FetchGitHub
+              theme={theme}
+              setLoading={this.setLoading}
+              setFetched={this.setFetched}
+              loading={loading}
+              fallback={fallback}
+              setFallback={this.setFallback}
+            />
+          </div>
 
-        <TopButton theme={this.props.theme} />
-      </div>
+          <TopButton theme={this.props.theme} />
+        </div>
+      </Fade>
     );
   }
 }

@@ -196,8 +196,7 @@
   }
 }
 
-.project-card:hover 
-.card-btn {
+.project-card:hover .card-btn {
   animation: bounce 0.5s ease-out;
 
 }
@@ -241,20 +240,20 @@
 }
 
 
-.title-page{
+.title-page {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.page-launch{
+.page-launch {
   display: flex;
   opacity: 0;
   gap: 10px;
   align-items: baseline;
 }
 
-.hover-msg{
+.hover-msg {
   display: flex;
   opacity: 0;
   margin-right: 35%;
