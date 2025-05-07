@@ -1,25 +1,26 @@
-====================================================================================================================================================================================================================
-# JohnE_Portfolio
-💼 Personal Portfolio Website
-A responsive and modern portfolio website built with React and React Bootstrap, showcasing my work, skills, and professional journey. This project serves as a digital resume and demonstrates my proficiency in frontend development, component-based UI design, and responsive layout practices.
+# 🚀 JohnE_Portfolio
+## 🌐 Personal Portfolio Website
 
-🚀 Features
-Clean, elegant UI using React Bootstrap
+A clean and modern portfolio website built with React and React Bootstrap, designed to showcase my projects, skills, and professional journey.
+This site functions as a digital resume and demonstrates my capabilities in frontend development and responsive UI design.
 
-Responsive design for desktop, tablet, and mobile
+✨ Features
+🎨 Elegant UI – Built with React and styled using React Bootstrap components
 
-Project showcase section with links
+📱 Fully Responsive – Optimized for desktop, tablet, and mobile
 
-About Me, Skills, and Contact sections
+🧩 Projects Section – Displays GitHub-linked projects dynamically
 
-Easily customizable and scalable
+👤 About Me, Skills & Contact – Professional profile and outreach options
 
-🔧 Tech Stack
-React
+⚙️ Easily Customizable – Structured for scalability and personalization
 
-React Bootstrap
+🛠️ Tech Stack
+⚛️ React
 
-HTML5 / CSS3
+🎯 React Bootstrap
 
-JavaScript (ES6+)
-=====================================================================================================================================================================================================================
+🌐 HTML5 / CSS3
+
+🧠 JavaScript (ES6+)
+
