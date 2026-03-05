@@ -295,23 +295,65 @@ const eduHeader = {
           title: "University of Central Missouri",
           company: "🌐 ucmo.edu",
           company_url: "https://www.ucmo.edu/",
-          logo_path: "UCM.png",
-          duration: "Master's in Computer Science, Missouri, United States of America",
-          location: "2022-2024",
+          abv: "UCM",
+          duration: "2022-2024",
+          tech: [
+            { name: "Advanced Algorithms", value: 95 },
+            { name: "Compiler Design & Cibstruction", value: 84 },
+            { name: "Machine Learning", value: 90 },
+            { name: "Cloud Computing", value: 92 }
+          ],
+          stats: {
+            Projects: 6,
+            Courses: 8,
+            GPA: 3.30
+          },
+          location: "United States of America",
           description:
-            "During my Master's program in Computer Science and Engineering, I gained a comprehensive and in-depth understanding of several advanced core areas, including Advanced Algorithms, Advanced Operating Systems, and Advanced Database Systems. These subjects played a crucial role in honing my problem-solving abilities and significantly strengthening my technical expertise. In addition to these foundational courses, I actively explored a wide range of cutting-edge topics such as Cloud Computing, Machine Learning, and Big Data Analytics. Through these studies, I developed a specialized and practical knowledge of modern computing paradigms and data-driven technologies. This experience has not only broadened my technical skill set but has also provided me with the ability to apply advanced concepts to solve real-world challenges in the rapidly evolving field of technology.",
-          color: "#0879bf",
+            "Master's in Computer Science with a focus on Algorithms, Operating Systems, and Databases. Explored Cloud Computing, Machine Learning, and Big Data, gaining hands-on experience to tackle real-world tech challenges and build practical solutions.",
         },
         {
-          title: "Karunya Institute of Technology & Sciences",
+          title: "Karunya Institute",
           company: "🌐 karunya.edu ",
           company_url: "https://karunya.edu/",
-          logo_path: "Karunya.jpg",
-          duration: "Bachelor's in Computer Science & Engineering, Tamil Nadu, India",
-          location: "2018-2022",
+          abv: "KITS",
+          duration: "2018-2022",
+          location: "Tamil Nadu, India",
+          tech: [
+            { name: "Python Programming", value: 85 },
+            { name: "Database Management", value: 90 },
+            { name: "Computer Architecture", value: 92 },
+            { name: "Data Structure & Algorithms", value: 86 }
+          ],
+          stats: {
+            Projects: 23,
+            Courses: 15,
+            Hackathons: 2,
+            Papers: 1,
+            CGPA: 3.33
+          },
           description:
-            "Throughout my Bachelor's degree in Computer Science and Engineering, I cultivated a solid and comprehensive foundation in essential concepts, including Data Structures & Algorithms and Advanced Java. These core subjects not only deepened my understanding of fundamental computer science principles but also sharpened my problem-solving abilities, which are vital for tackling complex technical challenges. In parallel, I gained proficiency in a diverse range of programming languages such as Python, C/C++, and C#, which greatly contributed to my ability to develop flexible and scalable software solutions. This versatility in languages empowered me to adapt to various development environments and projects. Additionally, I delved into the foundational aspects of Machine Learning, where I explored data-driven techniques and algorithms to analyze patterns and solve intricate problems. This exposure has provided me with a strong understanding of how to leverage data and algorithms to build intelligent systems and make informed, data-centric decisions.",
-          color: "#0879bf",
+            "Bachelor's in CS, building strong foundations in Data Structures, Algorithms, and Advanced Java. Gained hands-on experience with Python, C/C++, and C#, and explored Machine Learning techniques to develop intelligent, data-driven solutions.",
+        },
+        {
+          title: "Tirumala Insitute",
+          company: "🌐 tirumala.edu ",
+          company_url: "http://tirumalaedu.com/",
+          abv: "TI",
+          duration: "2016-2018",
+          location: "Andhra Pradesh, India",
+          tech: [
+            { name: "Maths", value: 98 },
+            { name: "Physics", value: 95 },
+            { name: "Chemistry", value: 100 }
+          ],
+          stats: {
+            Projects: 2,
+            TopRank: 2,
+            Score: '97%'
+          },
+          description:
+            "High School focused on Mathematics, Physics, and Chemistry, building a strong analytical and problem-solving foundation that prepared me for advanced studies in Computer Science and Engineering.",
         },
       ],
     },
@@ -327,41 +369,114 @@ const experience = {
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Internships",
+      title: "Prior & Current Experiences",
       experiences: [
         {
-          title: "Plural Technology Intern",
-          company: "Plural Technology Pvt Ltd",
-          company_url: "https://www.pluraltechnology.com/",
-          logo_path: "plural.png",
-          duration: "OCT 2024 - CURRENT",
-          location: "United States of America",
-          description:
-            "Developed highly functional and cross-platform mobile applications using Flutter, ensuring consistent performance, seamless user interactions, and a unified experience across both iOS and Android devices. As part of my responsibilities, I built and maintained efficient, robust RESTful APIs with .NET Core, significantly enhancing backend performance and scalability by optimizing request handling, which led to a notable reduction in response times by 30%. Additionally, I integrated Python’s FastAPI with advanced machine learning models to process and analyze real-time data streams, resulting in a 40% improvement in overall data processing efficiency.To ensure synchronization between mobile applications and backend services, I implemented real-time data synchronization mechanisms, which greatly enhanced data accuracy, consistency, and overall reliability across platforms. I also utilized containerization technologies, such as Docker, for streamlined and efficient deployment of backend services, achieving a 25% reduction in deployment time.In terms of security, I integrated advanced authentication mechanisms, including OAuth2, to ensure secure user login and access to sensitive data in both mobile and web applications, leading to a 35% improvement in overall security. To further enhance performance, I optimized key API endpoints in both .NET Core and FastAPI, significantly reducing response times and increasing user satisfaction by 20%. Collaborating effectively with both frontend and backend development teams, I utilized Git and GitHub for version control and code management. This facilitated smooth code integration and increased overall team productivity by 30%, fostering an efficient and cohesive development workflow.",
-          color: "#0879bf",
+          "title": "Full Stack Java Developer",
+          "company": "TechUSA",
+          "company_url": "#",
+          "abv": "TCU",
+          "duration": "Feb 2026 - Present",
+          "location": "Edison NJ, U.S.A",
+          "tech": [
+            { "name": "Java", "value": 85 },
+            { "name": "Spring Boot", "value": 80 },
+            { "name": "React", "value": 75 },
+            { "name": "AWS", "value": 70 },
+            { "name": "MySQL", "value": 65 }
+          ],
+          "stats": {
+            "Projects": 2,
+            "APIs": 2,
+            "Commits": 50
+          },
+          "description": "Designing and developing full-stack applications using Java, Spring Boot, React, and AWS, focusing on scalable, efficient, and maintainable solutions."
         },
         {
-          title: "Cognizant Intern",
+          title: "Full Stack Web Developer",
+
+          company_url: "https://intellipathsystems.com/",
+          company: "Intellipath Systems Inc",
+          abv: "IPS",
+          duration: "Jun 2025 - Feb 2026",
+          location: "Simi Valley CA, U.S.A",
+          tech: [
+            { "name": "React", "value": 80 },
+            { "name": "Redux", "value": 70 },
+            { "name": "JavaScript", "value": 85 },
+            { "name": "HTML/CSS", "value": 90 },
+            { "name": "API Development", "value": 75 }
+          ],
+          stats: {
+            Projects: 6,
+            APIS: 5,
+            Commits: 180
+          },
+          description:
+            "Developed and maintained responsive web applications using React and Redux, optimizing UI performance and building reusable, scalable components.",
+        },
+        {
+          title: "Software Developer",
+          company: "Plural Technology Pvt Ltd",
+          abv: "PTI",
+          company_url: "https://www.pluraltechnology.com/",
+          duration: "Oct 2024 - Jun 2025",
+          location: "Ann Arbor MI, U.S.A",
+          tech: [
+            { "name": ".NET Core", "value": 75 },
+            { "name": "AWS", "value": 70 },
+            { "name": "Python", "value": 60 },
+            { "name": "FastAPI", "value": 65 }
+          ],
+          stats: {
+            Projects: 5,
+            APIS: 8,
+            Commits: 90
+          },
+          description:
+            "Trained and contributed to backend development using .NET Core and AWS, building scalable, secure, and reliable applications while learning best practices and deployment workflows.",
+        },
+        {
+          title: "Programmer Analyst",
 
           company_url: "https://www.cognizant.com/us/en",
           company: "Cognizant Technology Solutions",
-          logo_path: "Cognizant_Logo.png",
-          duration: "DEC 2021 - May 2022",
+          abv: "CGZ",
+          duration: "Dec 2021 - May 2022",
           location: "Banglore, India",
+          tech: [
+            { "name": "Spring Boot", "value": 80 },
+            { "name": "Java", "value": 85 },
+            { "name": "MySQL", "value": 70 },
+            { "name": "HTML/CSS", "value": 65 }
+          ],
+          stats: {
+            "Projects": 5,
+            "APIs": 6,
+            "Commits": 120
+          },
           description:
-            "• Developed and optimized RESTful web services using Spring Boot and Spring MVC, reducing average response time by 25% through effectivecaching and database query optimization. • Implemented micro services architecture with Spring Cloud to enhance scalability and service resilience, resulting in a 30% reduction in system downtime. • Refactored legacy code bases to integrate Spring Boot, improving application performance and reducing API response times by 20% through efficient resource management and streamlined service layer logic. • Designed and developed a full-functioning e-commerce platform integrated with AWS, leveraging Neo4j for database management, improving system reliability by 35%. • Created and deployed Android applications using Android Studio, Java, and Kotlin, enhancing app performance and user experience, resulting in a 20% increase in user retention. • Optimized frontend development by implementing responsive designs using HTML, CSS, and Bootstrap, reducing page load times by 30% and bounce rates by 25%.",
-          color: "#0879bf",
+            "Developed and optimized backend systems with Spring Boot and Java, improving API efficiency and contributing to scalable web applications."
         },
         {
-          title: "OaksPro Intern",
+          title: "Software Developer",
           company: "OaksPro Software Solutions",
+          abv: "OKP",
           company_url: "https://oakspro.com/",
-          logo_path: "oaks_logo.png",
-          duration: "DEC 2020 - May 2021",
+          duration: "Dec 2020 - May 2021",
           location: "Hyderabad, India",
+          tech: [
+            { name: "Spring Boot", value: 85 },
+            { name: "React", value: 70 },
+            { name: "AWS", value: 60 }
+          ],
+          stats: {
+            Projects: 8,
+            PlugIns: 3,
+            Commits: 98
+          },
           description:
-            "• Developed dynamic and responsive web applications using HTML, Bootstrap, PHP, and MySQL, enhancing user experience and reducing page load times by 30%. • Optimized database queries and server-side scripting, resulting in a 40% reduction in response times and improved application performance. • Implemented frontend enhancements and responsive designs, reducing bounce rates by 25% and improving user engagement. • Leveraged caching strategies such as Redis and browser-based caching, reducing server load and improving content delivery speed by 35%. • Streamlined version control and collaboration by utilizing Git and GitHub, ensuring smooth project development and reducing code conflicts by 40%. • Deployed applications on cloud platforms such as AWS and Azure, enhancing scalability and reducing infrastructure costs by 25%.",
-          color: "#0879bf",
+            "Built responsive websites and custom WordPress plugins, optimizing performance and enhancing user experience across client projects."
         },
       ],
     },

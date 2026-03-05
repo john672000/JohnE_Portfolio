@@ -28,6 +28,16 @@ class ExperienceAccordion extends Component {
                       marginBottom: `3px`,
                       fontFamily: "Google Sans Regular",
                       color: `${theme.text}`,
+                      cursor: "default",
+                      ":hover": {
+                        backgroundColor: theme.body,
+                      },
+                      ":focus": {
+                        outline: "none",
+                      },
+                      ":active": {
+                        backgroundColor: theme.body,
+                      },
                     }),
                   },
                   Content: {
@@ -39,8 +49,15 @@ class ExperienceAccordion extends Component {
                   },
                 }}
               >
-                {section["experiences"].map((experience) => {
-                  return <ExperienceCard experience={experience} theme={theme} />;
+                {section["experiences"].map((experience, index) => {
+
+                  return (
+                    <ExperienceCard
+                      experience={experience}
+                      theme={theme}
+                    />
+
+                  );
                 })}
               </Panel>
             );
