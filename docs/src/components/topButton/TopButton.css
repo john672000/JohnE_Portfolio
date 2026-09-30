@@ -1,0 +1,19 @@
+#topButton {
+  visibility: hidden;
+  position: fixed;
+  bottom: 1.2rem;
+  right: 1.5rem;
+  cursor: pointer;
+  padding: 15px;
+  outline: none;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  z-index: 9999;
+  outline: none;
+  user-select: none;
+}
+
+#topButton:focus {
+  outline: none;
+  box-shadow: none;
+}

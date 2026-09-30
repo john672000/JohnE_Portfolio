@@ -1,0 +1,261 @@
+.experience-main {
+  width: 100vw;
+}
+
+.basic-experience {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.experience-heading-div {
+  display: flex;
+}
+
+.experience-heading-div>* {
+  flex: 1;
+}
+
+.experience-heading-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-heading-text-div {
+  text-align: center;
+}
+
+.experience-heading-img-div>* {
+  max-width: 100%;
+  height: auto;
+}
+
+.experience-heading-text {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Medium";
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.experience-heading-sub-text {
+  font-size: 30px;
+  font-family: "Google Sans Regular";
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.experience-header-detail-text {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Google Sans Medium";
+}
+
+/* Skeleton loader styles */
+.skeleton {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.skeleton-text {
+  background-color: #EDF9FE;
+  /* Light grey for skeleton background */
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+
+.skeleton-title {
+  width: 60%;
+  height: 24px;
+}
+
+.skeleton-desc {
+  width: 90%;
+  height: 16px;
+}
+
+.skeleton-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skeleton-lang {
+  width: 30%;
+  height: 12px;
+}
+
+/* Animation for skeletons to give a shimmer effect */
+@keyframes shimmer {
+  0% {
+    background-position: -100%;
+  }
+
+  100% {
+    background-position: 100%;
+  }
+}
+
+.skeleton-text {
+  animation: shimmer 1.5s infinite linear;
+  background: linear-gradient(90deg, #e0e0e0 25%, #EDF9FE 50%, #e7e4e4 75%);
+  background-size: 200% 100%;
+}
+
+
+@media (max-width: 1380px) {
+  .experience-heading-text {
+    font-size: 50px;
+    margin-top: 80px;
+  }
+
+  .experience-heading-sub-text {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience-heading-text {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+
+  .experience-heading-sub-text {
+    font-size: 20px;
+  }
+
+  .experience-heading-div {
+    flex-direction: column;
+  }
+
+  .experience-header-detail-text {
+    font-size: 16px;
+    margin-right: 0px;
+    line-height: normal;
+    text-align: center;
+  }
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.project-card {
+  border-radius: 35px;
+  padding: 20px;
+  transition: all 0.2s ease-in-out, box-shadow 0.3s ease;
+  font-family: "Google Sans Medium";
+  backdrop-filter: blur(5px);
+
+
+}
+
+.project-card:hover {
+  transform: scale(0.98);
+  border: 0.5px solid;
+  transition: all 0.2s ease-in-out;
+  background: #EDF9FE;
+}
+
+.card-btn {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+
+  }
+
+  70% {
+    transform: translateY(10px);
+
+  }
+
+  100% {
+    transform: translateY(0);
+
+  }
+}
+
+.project-card:hover .card-btn {
+  animation: bounce 0.5s ease-out;
+
+}
+
+
+.project-card:hover .page-launch {
+  opacity: 1;
+}
+
+.project-card:hover .hover-msg {
+  opacity: 1;
+  animation: bounce 0.5s ease-out;
+}
+
+
+
+
+.project-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.fetching-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  font-weight: bold;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  /* optional: space between text and SVG */
+}
+
+.fetching-msg i {
+  padding: 20px;
+  font-size: 32px;
+}
+
+
+.title-page {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.page-launch {
+  display: flex;
+  opacity: 0;
+  gap: 10px;
+  align-items: baseline;
+}
+
+.hover-msg {
+  display: flex;
+  opacity: 0;
+  margin-right: 35%;
+  text-align: center;
+}
